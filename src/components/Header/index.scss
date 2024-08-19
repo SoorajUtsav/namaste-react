@@ -1,0 +1,41 @@
+@import "../../variables.scss";
+
+.header {
+  background: linear-gradient(135deg, $light-yellow, $dark-mustard);
+  padding: 20px 0;
+  color: $text-color;
+  font-family: $primary-font;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  font-family: $primary-font;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 0;
+  font-family: $title-font;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #333;
+}

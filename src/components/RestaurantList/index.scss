@@ -1,0 +1,29 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.restaurant-card {
+  flex: 1 1 calc(25% - 40px); /* 4 cards per row with space for padding/gap */
+  margin: 10px; /* Adds space between cards */
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds box shadow */
+}
+
+.restaurant-image {
+  width: 100%; /* Makes image fill the card width */
+  height: 200px; /* Adjust height as needed */
+  border-radius: 16px;
+  object-fit: cover; /* Ensures the image covers the area */
+}
+
+h2 {
+  margin-top: 0;
+}
